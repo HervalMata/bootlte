@@ -1,0 +1,28 @@
+{
+  "name": "bootlte",
+  "version": "1.0.0",
+  "description": "Front-end do projeto BootLTE.",
+  "license": "MIT",
+  "author": {
+    "name": "sysrocket",
+    "email": "atendimento@sysrocket.com"
+  },
+  "homepage": "http://www.sysrocket.com/",
+  "private": true,
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "grunt": "^1.0.1",
+    "grunt-bower-concat": "^1.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-qunit": "^1.2.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "qunit": "^0.9.1"
+  },
+  "scripts": {
+    "postinstall": "bower install"
+  }
+}

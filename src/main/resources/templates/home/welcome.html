@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br" 
+    xmlns="http://www.w3.org/1999/xhtml" 
+    xmlns:th="http://www.thymeleaf.org"
+    xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+    layout:decorator="layout/default">
+    <head>
+	   <title>Welcome</title>
+    </head> 
+    <body>
+        <section layout:fragment="content-header">
+            <h1>
+                BootLTE <small>Spring Boot + AdminLTE</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li>
+                    <a href="#">
+                        <i class="fa fa-dashboard"></i> Level
+                    </a>
+                </li>
+                <li class="active">Here</li>
+            </ol>
+        </section>
+    
+        <section layout:fragment="content">
+            <h1>Bem vindo!</h1>
+            <p>
+                BootLTE é o resultado da integração do Spring Boot (utilizando o template engine Thymeleaf) com o tema AdminLTE. 
+                O propósito deste projeto é ser utilizado como ponto de partida para outros projetos utilizando o tema AdminLTE. 
+                Visite os links abaixo para mais informações.
+            </p>
+            
+            <ul>
+                <li>
+                    <a href="http://docs.spring.io/spring-boot/docs/1.4.1.RELEASE/reference/htmlsingle/" target="_blank">Spring Boot 1.4.1</a>
+                </li>
+                <li>
+                    <a href="http://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html" target="_blank">Thymeleaf 2.1.5</a>
+                </li>
+                <li>
+                    <a href="https://github.com/ultraq/thymeleaf-layout-dialect" target="_blank">Thymeleaf Layout Dialect 1.4.0</a>
+                </li>
+                <li>
+                    <a href="https://almsaeedstudio.com/themes/AdminLTE/index2.html" target="_blank">AdminLTE 2.3.6</a>
+                </li>
+            </ul>
+        </section>
+    </body>
+</html>

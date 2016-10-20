@@ -1,0 +1,22 @@
+{
+  "name": "bootlte",
+  "description": "Front-end do projeto BootLTE.",
+  "license": "MIT",
+  "authors": [
+    "sysrocket <atendimento@sysrocket.com>"
+  ],
+  "homepage": "http://www.sysrocket.com/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "https://github.com/FortAwesome/Font-Awesome.git#4.5.0",
+    "Ionicons": "ionicons#2.0.1",
+    "AdminLTE": "adminlte#2.3.6"
+  }
+}
