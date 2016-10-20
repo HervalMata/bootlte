@@ -13,9 +13,9 @@ BootLTE utiliza Grunt, Bower e npm para gerenciar as dependências e realizar o 
 
 Os seguintes itens devem ser instalados:
 
-*Node.js
-*Grunt CLI
-*Bower
+* Node.js
+* Grunt CLI
+* Bower
 
 Depois de baixar o projeto e instalar os itens acima é necessário acessar a pasta bootlte\src\main\resources\static 
 através do terminal e executar o seguinte comando para baixar as dependências:
