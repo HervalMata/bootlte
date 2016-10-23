@@ -43,5 +43,5 @@ Para mais informações sobre a configuração das tasks do Grunt acesse o arqui
 
 Sempre que algum plugin do tema AdminLTE for utilizado a task `bower_concat` do arquivo `Gruntfile.js` deve ser editada, 
 incluindo o caminho do artefato (js ou css) que será adicionado. Assim o mesmo será compactado junto com os outros 
-arquivos. O caminho do plugin deve ser incluído no array do item "AdminLTE". Toda vez que isto ocorrer, um novo build 
+arquivos. O caminho do plugin deve ser incluído no array do item `"AdminLTE"`. Toda vez que isto ocorrer, um novo build 
 da camada front-end deverá ser feito.
