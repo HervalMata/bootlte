@@ -17,7 +17,7 @@ Os seguintes itens devem ser instalados:
 * Grunt CLI
 * Bower
 
-Depois de baixar o projeto e instalar os itens acima é necessário acessar a pasta bootlte\src\main\resources\static 
+Depois de baixar o projeto e instalar os itens acima é necessário acessar a pasta _bootlte\src\main\resources\static_ 
 através do terminal e executar o seguinte comando para baixar as dependências:
 
 ```shell
@@ -31,7 +31,7 @@ terminal:
 grunt default -f
 ```
 
-O parâmetro -f é necessário porque o projeto ainda não possui testes unitários na camada front-end.
+O parâmetro `-f` é necessário porque o projeto ainda não possui testes unitários na camada front-end.
 
 O build foi configurado para otimizar a camada de font-end através da concatenação e compressão dos arquivos JavaScript 
 e CSS proporcionando uma melhor performance na entrega destes artefatos.
