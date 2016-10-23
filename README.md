@@ -17,7 +17,7 @@ Os seguintes itens devem ser instalados:
 * Grunt CLI
 * Bower
 
-Depois de baixar o projeto e instalar os itens acima é necessário acessar a pasta _bootlte\src\main\resources\static_ 
+Depois de baixar o projeto e instalar os itens acima é necessário acessar a pasta `bootlte\src\main\resources\static` 
 através do terminal e executar o seguinte comando para baixar as dependências:
 
 ```shell
@@ -36,12 +36,12 @@ O parâmetro `-f` é necessário porque o projeto ainda não possui testes unit�
 O build foi configurado para otimizar a camada de font-end através da concatenação e compressão dos arquivos JavaScript 
 e CSS proporcionando uma melhor performance na entrega destes artefatos.
 
-Para mais informações sobre a configuração das tasks do Grunt acesse o arquivo Gruntfile.js na pasta 
-bootlte\src\main\resources\static.
+Para mais informações sobre a configuração das tasks do Grunt acesse o arquivo `Gruntfile.js` na pasta 
+`bootlte\src\main\resources\static`.
 
 ## Instruções para utilização do tema AdminLTE
 
-Sempre que algum plugin do tema AdminLTE for utilizado a task bower_concat do arquivo Gruntfile.js deve ser editada, 
+Sempre que algum plugin do tema AdminLTE for utilizado a task `bower_concat` do arquivo `Gruntfile.js` deve ser editada, 
 incluindo o caminho do artefato (js ou css) que será adicionado. Assim o mesmo será compactado junto com os outros 
 arquivos. O caminho do plugin deve ser incluído no array do item "AdminLTE". Toda vez que isto ocorrer, um novo build 
 da camada front-end deverá ser feito.
